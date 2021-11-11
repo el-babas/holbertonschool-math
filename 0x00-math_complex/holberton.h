@@ -2,15 +2,16 @@
 #define HEADER_FILE
 
 /**
- * struct complex - complex
- * @a: double 1
- * @b: double 2
+ * struct Complex - complex
+ * @re: double 1
+ * @im: double 2
  */
-struct complex
+typedef struct Complex
 {
-	double a;
-	double b;
-};
+	double re;
+	double im;
+} complex;
+
 void display_complex_number(complex c);
 
 #endif
