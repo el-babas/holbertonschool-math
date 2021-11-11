@@ -1,6 +1,10 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
 /**
  * struct Complex - complex
  * @re: double 1
@@ -14,5 +18,6 @@ typedef struct Complex
 
 void display_complex_number(complex c);
 complex conjugate(complex c);
+double modulus(complex c);
 
 #endif
