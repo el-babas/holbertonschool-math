@@ -6,14 +6,14 @@
 #include <math.h>
 
 /**
- * struct cell - list of results
+ * struct t_cell - list of results
  * @elt: number
  * @next: point to the next node
  */
-typedef struct cell
+typedef struct t_cell
 {
 	int elt;
-	struct cell *next;
+	struct t_cell *next;
 } t_cell;
 
 t_cell *heron(double p, double x0);
